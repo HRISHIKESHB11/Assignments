@@ -1,0 +1,40 @@
+.header{
+    background-color: aqua;
+    line-height: 150px;
+    width: 100%;
+} 
+.nav{
+    background-color: black;
+    color: aliceblue;
+    line-height: 400px;
+    width: 100%;
+}
+.cont1{
+    background-color: blue;
+    line-height: 400px;
+    width: 30%;
+   float: left;
+}
+.mcont{
+    background-color: blueviolet;
+    line-height: 400px;
+    width: 40%;
+   
+    float: left;
+}
+.cont2{
+    background-color: brown;
+    line-height: 400px;
+    width: 30%;
+   
+    float: right;
+}
+.footer{
+    background-color: aqua;
+    line-height: 150px;
+    width: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}

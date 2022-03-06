@@ -1,0 +1,26 @@
+.header{
+    background-color: aqua;
+    line-height: 200px;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.sidebar{
+    background-color: blue;
+    line-height: 400px;
+    width: 40%;
+    float: left;
+    margin-bottom: 1%;
+}
+.sec{
+    background-color: blueviolet;
+    line-height: 400px;
+    width: 60%;
+    float: right;
+    margin-bottom: 1%;
+}
+.footer{
+    background-color: brown;
+    line-height: 200px;
+    width: 100%;
+    margin-top: 1%;
+}
