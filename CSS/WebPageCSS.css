@@ -1,0 +1,75 @@
+.main{
+    background-color: yellow;
+    height: 1200px;
+    width: 1000px;
+}
+
+.hb{
+    background-color: orange;
+    height: 150px;
+    width: 1000px;
+}
+.bb{
+    background-color: black;
+    color: antiquewhite;
+    height: 100px;
+    width: 400px;
+    float: left;
+}
+.sm{
+    background-color: lightskyblue;
+    height: 50px;
+    width: 600px;
+    float: left;
+}
+.mb{
+    background-color: lightcoral;
+    height: 50px;
+    width: 600px;
+    float: left;
+}
+.cont{
+    background-color: lawngreen;
+    height: 550px;
+    width: 1000px;
+}
+.img{
+    background-color: green;
+    height: 500px;
+    width: 1000px;
+    align-content: center;
+}
+.ssb{
+    background-color: blueviolet;
+    height: 400px;
+    width: 1000px;
+}
+.bootbar{
+    background-color: brown;
+    height: 350px;
+    width: 250px;
+    float: left;
+}
+.cloud{
+    background-color: lightslategray;
+    height: 350px;
+    width: 250px;
+    float: left;
+}
+.ml{
+    background-color: lightgoldenrodyellow;
+    height: 350px;
+    width: 250px;
+    float: left;
+}
+.dsa{
+    background-color: lightpink;
+    height: 350px;
+    width: 250px;
+    float: right;
+}
+.footer{
+    background-color: violet;
+    height: 100px;
+    width: 1000px;
+}
