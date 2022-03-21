@@ -88,6 +88,12 @@
     width: 130px;
     margin-left: 10px;
     margin-right: 0px;
+
+}
+.sm ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
 }
 .mb ul li{
     float: left;
