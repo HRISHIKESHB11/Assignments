@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    color: black;
+    line-height: 500%;
+    
+}
+.mainpage{
+    height: 1500px;
+    width: 1200px;
+    background-color: black;
+    margin-left: 11%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.header{
+    height: 300px;
+    width: 1200px;
+    background-color: grey;
+}
+.brandlogo{
+    height: 200px;
+    width: 450px;
+    background-color: red;
+    float: left;
+}
+.bio{
+    height: 100px;
+    width: 750px;
+    background-color: blue;
+    float: left;
+}
+.socialmedia{
+    height: 100px;
+    width: 750px;
+    background-color: green;
+    float: left;
+}
+.socialmedia ul li{
+    list-style: none;
+    float: left;
+    display: block;
+
+    margin-left: 0px;
+    height: 100px;
+    width: 150px;
+}
+.facebook{
+    background-color: blue;
+}
+.twitter{
+    background-color: lightblue;
+}
+.instagram{
+    background-color: lightcoral;
+}
+.linkdin{
+    background-color: darkblue;
+}
+.youtube{
+    background-color: red;
+}
+.menu{
+    height: 100px;
+    width: 1200px;
+    background-color: yellow;
+    float: right;
+    margin: 0%;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    display: block;
+
+    margin-left: 0px;
+    height: 100px;
+    width: 300px;
+}
+.home{
+    background-color: aquamarine;
+}
+.contact{
+    background-color: lightsalmon;
+}
+.about{
+    background-color: lightskyblue;
+}
+.support{
+    background-color: lightpink;
+}
+.container{
+    height: 500px;
+    width: 1200px;
+    background-color: pink;
+}
+.product1{
+    height: 400px;
+    width: 1200px;
+    background-color: brown;
+}
+.p1{
+    height: 400px;
+    width: 240px;
+    float: left;
+    background-color: blueviolet;
+}
+.p2{
+    height: 400px;
+    width: 240px;
+    float: left;
+    background-color: grey;
+}
+.p3{
+    height: 400px;
+    width: 240px;
+    float: left;
+    background-color: whitesmoke;
+}
+.p4{
+    height: 400px;
+    width: 240px;
+    float: left;
+    background-color: greenyellow;
+}
+.p5{
+    height: 400px;
+    width: 240px;
+    float: left;
+    background-color: blue;
+}
+.product2{
+    height: 200px;
+    width: 1200px;
+    background-color: goldenrod;
+}
+.pp1{
+    height: 200px;
+    width: 400px;
+    background-color: lightcoral;
+    float: left;
+}
+.pp2{
+    height: 200px;
+    width: 400px;
+    background-color: lightgreen;
+    float: left;
+}
+.pp3{
+    height: 200px;
+    width: 400px;
+    background-color: lightslategray;
+    float: left;
+}
+.footer{
+    height: 100px;
+    width: 1200px;
+    background-color: grey;
+}
