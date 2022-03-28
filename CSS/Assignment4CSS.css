@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.grid-container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    background-color: blueviolet;
+    gap: 2px;
+    grid-template-areas: 
+    "head head head head"
+    "nav nav nav nav"
+    "con main main con"
+    "con main main con"
+    "con main main con"
+    "footer footer footer footer";
+}
+.grid-item{
+    min-height: 10px;
+    background-color: lightgreen;
+}
+.item1{
+    grid-area: head;
+}
+.item2{
+    grid-area: nav;
+}
+.item3{
+    grid-area: main;
+}
+.item4{
+    grid-area: con;
+}
+.item5{
+    grid-area: footer;
+}
