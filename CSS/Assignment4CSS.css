@@ -14,13 +14,13 @@
     grid-template-areas: 
     "head head head head"
     "nav nav nav nav"
-    "con main main con"
-    "con main main con"
-    "con main main con"
+    "con main main con1"
+    "con main main con1"
+    "con main main con1"
     "footer footer footer footer";
 }
 .grid-item{
-    min-height: 10px;
+    min-height: 10px ;
     background-color: lightgreen;
 }
 .item1{
@@ -37,4 +37,7 @@
 }
 .item5{
     grid-area: footer;
+}
+.item6{
+    grid-area: con1;
 }
