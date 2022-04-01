@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+}
+.container{
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.7);
+    border-radius: 5%;
+    padding: 5%;
+    background-color: grey;
+    color: white;
+}
+#heading{
+    text-align: center;
+}
