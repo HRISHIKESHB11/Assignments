@@ -17,6 +17,7 @@
 <body>
     
     <div class="container col-6 mt-5">
+        <h1>Create Login Form</h1>
         <form action="loginform">
             <div class="row">
                 <div class="col">
@@ -37,30 +38,24 @@
             </div>
         </form>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-
-            </div>
-        </div>
-    </div>
     <div class="container col-6 mt-5">
+        <h1>Create Sign-Up Form</h1>
         <form action="#" class="">
-            <header class="form-header">Sign-Up</header>
-            <div class="row">
+            <header class="form-header mt-2">Sign-Up</header>
+            <div class="row mt-2">
                     <label for="fn" class="form-label col">First Name:</label>
                     <input type="text" name="fn-text" id="fnt" class="form-text col">
             </div>
-            <div class="row">
+            <div class="row mt-2">
                     <label for="ln" class="form-label col">Last Name:</label>
                     <input type="text" name="fn-text" id="lnt" class="form-text col">
             </div>
-            <div class="row">
+            <div class="row mt-2">
                     <label for="sn" class="form-label col">Student Name:</label>
                     <input type="text" name="fn-text" id="snt" class="form-text col">
             </div>
-            <div class="row">
-                <label for="dob" class="col">Date of Birth:</label>
+            <div class="row mt-2">
+                <label for="dob" class="col-6">Date of Birth:</label>
                 <select name="dropdown" id="dropdown" class="form-select col">
                     <div class="col">
                         <option value="">Select Month</option>
@@ -136,11 +131,11 @@
                     </div>
                 </select>
             </div>
-            <div class="row">
-                <label for="Country" class="col-3">Country:</label>
+            <div class="row mt-2">
+                <label for="Country" class="col-6">Country:</label>
                 <select name="dropdown" id="dropdown" class="form-select col">
                     <div class="col-9">
-                        <option value="">Select Year</option>
+                        <option value="">Select Country</option>
                         <option value="">America</option>
                         <option value="">Brazil</option>
                         <option value="">China</option>
@@ -151,25 +146,35 @@
                     </div>
                 </select>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                     <label for="email" class="form-label col">Email:</label>
                     <input type="email" name="em-text" id="emt" class="form-email col">
             </div>
-            <div class="row">
+            <div class="row mt-2">
                     <label for="pn" class="form-label col">Phone Number:</label>
                     <input type="number" name="pn" id="pn" class="form-number col">
             </div>
-            <div class="row">
+            <div class="row mt-2">
                     <label for="pd" class="form-label col">Password</label>
                     <input type="password" name="pd" id="pd" class="form-password col">
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <label for="sn" class="form-label col">Confirm Password:</label>
                 <input type="password" name="cpd" id="cpd" class="form-password col">  
+            </div>
+            <div class="row mt-2">
+                <div class="col-8"></div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-warning">Cancel</button>
+                </div>
             </div>
         </form>
     </div>
     <div class="container col-6 mt-5">
+        <h1>Social Meadia using anchor tag</h1>
         <div class="row">
             <a class="col" href="www.facebook.com"><img src="/PractiseTest/image/f-logo.png" alt="" height="50px" width="50px"></a>
             <a class="col" href="www.pinterest.com"><img src="/PractiseTest/image/badgeRGB-150x150.png" alt="" height="50px" width="50px"></a>
@@ -183,6 +188,46 @@
             <a class="col" href="www.whatsapp.com"><img src="/PractiseTest/image/WhatsApp_Logo_2-150x150.png" alt="" height="50px" width="50px"></a>
         </div>
     </div>
+    <div class="container col-6 mt-5">
+    <h1>Create a Table</h1>
+        <div class="row bg-success border border-dark">
+            <div class="col border border-dark">EMPID</div>
+            <div class="col border border-dark">EMPNAME</div>
+            <div class="col border border-dark">EMPDEPT</div>
+            <div class="col border border-dark">EMPSALARY</div>
+        </div>
+        <div class="row border border-dark">
+            <div class="col border border-dark">101</div>
+            <div class="col border border-dark">Joe</div>
+            <div class="col border border-dark">Development</div>
+            <div class="col border border-dark">50000</div>
+        </div>
+        <div class="row bg-primary border border-dark">
+            <div class="col border border-dark">102</div>
+            <div class="col border border-dark">Mary</div>
+            <div class="col border border-dark">Testing</div>
+            <div class="col border border-dark">30000</div>
+        </div>
+        <div class="row border border-dark">
+            <div class="col border border-dark">103</div>
+            <div class="col border border-dark">Beck</div>
+            <div class="col border border-dark">Analyst</div>
+            <div class="col border border-dark">40000</div>
+        </div>
+        <div class="row bg-primary border border-dark">
+            <div class="col border border-dark">104</div>
+            <div class="col border border-dark">Candace</div>
+            <div class="col border border-dark">Development</div>
+            <div class="col border border-dark">45000</div>
+        </div>
+    </div>
+    <div class="container col-6 mt-5">
+        <h1>Video player</h1>
+        <video  controls height="400px" width="600px" loop>
+            <source src="video/video.mp4" type="Video/mp4">
+        </video>
+    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
