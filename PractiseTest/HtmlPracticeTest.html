@@ -12,11 +12,19 @@
             margin: 0%;
             padding: 0%;
         }
+        .bg-color{
+                    background-color: gray;
+                    color: white;
+                }
+        .form-bgcolor{
+            background-color: white;
+            color: black;
+        }
     </style>
 </head>
 <body>
     
-    <div class="container col-6 mt-5">
+    <div class="container col-6 mt-5 bg-color rounded">
         <h1>Create Login Form</h1>
         <form action="loginform">
             <div class="row">
@@ -38,10 +46,10 @@
             </div>
         </form>
     </div>
-    <div class="container col-6 mt-5">
+    <div class="container col-6 mt-5 bg bg-color rounded">
         <h1>Create Sign-Up Form</h1>
         <form action="#" class="">
-            <header class="form-header mt-2">Sign-Up</header>
+            <header class="form-header mt-2 btn-success"><h3>Sign-Up</h3></header>
             <div class="row mt-2">
                     <label for="fn" class="form-label col">First Name:</label>
                     <input type="text" name="fn-text" id="fnt" class="form-text col">
@@ -173,7 +181,7 @@
             </div>
         </form>
     </div>
-    <div class="container col-6 mt-5">
+    <div class="container col-6 mt-5 bg-color rounded">
         <h1>Social Meadia using anchor tag</h1>
         <div class="row">
             <a class="col" href="www.facebook.com"><img src="/PractiseTest/image/f-logo.png" alt="" height="50px" width="50px"></a>
@@ -188,7 +196,7 @@
             <a class="col" href="www.whatsapp.com"><img src="/PractiseTest/image/WhatsApp_Logo_2-150x150.png" alt="" height="50px" width="50px"></a>
         </div>
     </div>
-    <div class="container col-6 mt-5">
+    <div class="container col-6 mt-5 bg-color rounded">
     <h1>Create a Table</h1>
         <div class="row bg-success border border-dark">
             <div class="col border border-dark">EMPID</div>
@@ -221,7 +229,7 @@
             <div class="col border border-dark">45000</div>
         </div>
     </div>
-    <div class="container col-6 mt-5">
+    <div class="container col-6 mt-5 mb-5 bg-color rounded">
         <h1>Video player</h1>
         <video  controls height="400px" width="600px" loop>
             <source src="video/video.mp4" type="Video/mp4">
