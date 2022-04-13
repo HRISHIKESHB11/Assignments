@@ -7,47 +7,229 @@
     <title>Document</title>
         <!-- ============== Bootstrap CSS link Start ============== -->
         <link rel="stylesheet" href="assets/vendor/css/bootstrap.css">
+        <link rel="stylesheet" href="/Project/assets/resource/css/align.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <!-- ============== Bootstrap CSS link End ============== -->
 </head>
 <body>
-    <!-- Header Section Start -->
-        <header class="container">
-            <h1>Header</h1>
+<!-- Header Section Start -->
+        <header>
+                <nav class="navbar navbar-light navbar-expand-lg bg-light">
+                     <a href="#home" class="navbar-brand"><img src="assets/vendor/Image/brandlogo.png" alt="logo" height="100%" width="50%"></a>
+                    <div class="container col-6 bg-color rounded">
+                        <a class="col" href="www.facebook.com"><img src="/PractiseTest/image/f-logo.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.pinterest.com"><img src="/PractiseTest/image/badgeRGB-150x150.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.telegram.com"><img src="/PractiseTest/image/download.jpg" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.gmail.com"><img src="/PractiseTest/image/download.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.instagram.com"><img src="/PractiseTest/image/glyph-logo_May2016-150x150.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.linkdin.com"><img src="/PractiseTest/image/In-2C-54px-R.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.snapchat.com"><img src="/PractiseTest/image/snap-ghost-yellow.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.twitter.com"><img src="/PractiseTest/image/Twitter_Logo_WhiteOnBlue-150x150.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.youtube.com"><img src="/PractiseTest/image/yt_icon_rgb-310x219.png" alt="" height="50px" width="50px"></a>
+                        <a class="col" href="www.whatsapp.com"><img src="/PractiseTest/image/WhatsApp_Logo_2-150x150.png" alt="" height="50px" width="50px"></a>
+
+                    </div>
+                       
+                    <div class="row">
+                        <div class="col-1">
+                            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-bar-div">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                                 <div id="nav-bar-div" class="collapse navbar-collapse">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#plan">Plan</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </nav>
         </header>
-    <!-- Header Section end -->
+<!-- Header Section end -->
 
-    <!-- Home Section Start -->
-        <section class="container" id="Home" >
-            <h1>Home</h1>
+<!-- Home Section Start -->
+        <section id="Home" >
+            <div id="carousel-parent" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-parent" class="carousel-button active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-parent" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-parent" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-item active"><img src="assets/vendor/Image/1.jpg" alt="" class="d-block w-100"></div>
+                    <div class="carousel-item "><img src="assets/vendor/Image/2.jpg" alt="" class="d-block w-100"></div>
+                    <div class="carousel-item"><img src="assets/vendor/Image/3.jpg" alt="" class="d-block w-100"></div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-parent" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel-parent" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
         </section>
-    <!-- Home Section end -->
+<!-- Home Section end -->
     
-    <!-- Plans Section Start -->
-        <section class="container" id="plan" >
-            <h1>Plans</h1>
+<!-- Plans Section Start -->
+        <section class="card-section mb-5" id="plan" >
+            <div class="container">
+                <h2 class="align"><strong>Gym Plans</strong></h2>
+                <div class="row">
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="rounded" src="/Project/assets/vendor/Image/4.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Normal Workout Plan</h4>
+                            </div>
+                            <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. Without Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. No Personal Coach Assistance
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="rounded" src="/Project/assets/vendor/Image/6.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Cardio Plan</h4>
+                            </div>
+                            <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. With Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. No Personal Coach Assistance
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="/Project/assets/vendor/Image/5.jpg" alt="" class="rounded">
+                            <div class="card-title">
+                                <h4>Coach Assistance Plan</h4>
+                                <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. With Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. Plus Personal Coach Assistance
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="rounded" src="/Project/assets/vendor/Image/4.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Normal Workout Plan</h4>
+                            </div>
+                            <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. Without Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. No Personal Coach Assistance
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="rounded" src="/Project/assets/vendor/Image/6.jpg" alt="">
+                            <div class="card-title">
+                                <h4>Cardio Plan</h4>
+                            </div>
+                            <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. With Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. No Personal Coach Assistance
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="/Project/assets/vendor/Image/5.jpg" alt="" class="rounded">
+                            <div class="card-title">
+                                <h4>Coach Assistance Plan</h4>
+                                <div class="card-text">
+                                1. Daily Workout Schedule. <br>
+                                2. With Cardio. <br>
+                                3. Normal Coach Assistance. <br>
+                                4. Plus Personal Coach Assistance
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    <!-- Plans Section end -->
+<!-- Plans Section end -->
 
-    <!-- about Section Start -->
+<!-- about Section Start -->
         <section class="container" id="about" >
-            <h1>About</h1>
+            <strong><h1 class="align">About</h1></strong>
+            <div class="row">
+                <div class="col">
+                    <img class="rounded" src="/Project/assets/vendor/Image/7.jpg" alt="">
+                </div>
+                <div class="col">
+                    <p><strong>
+                        A gymnasium, also known as a gym, is a covered location for athletics. The word is derived from the ancient Greek term "gymnasium".[1] They are commonly found in athletic and fitness centres, and as activity and learning spaces in educational institutions. "Gym" is also slang for "fitness centre", which is often an area for indoor recreation. A "gym" may include or describe adjacent open air areas as well. In Western countries, "gyms" (or pl: gymnasia") often describe places with indoor or outdoor courts for basketball, hockey, tennis, boxing or wrestling, and with equipment and machines used for physical development training, or to do exercises. In many European countries, Gymnasium (and variations of the word) also can describe a secondary school that prepares students for higher education at a university, with or without the presence of athletic courts, fields, or equipment.
+                    </strong></p>
+                </div>
+            </div>
         </section>
-    <!-- about Section end -->
+<!-- about Section end -->
 
-    <!-- Contact Section Start -->
-        <section class="container" id="contact" >
-            <h1>Contact</h1>
-        </section>
-    <!-- Contact Section end -->
+<!-- Contact Section Start -->
+     <section class="contact-section bg-dark text-muted" id="contact" >
+        <h1 class="align">Contact</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        <strong>
+                            <h4>Gym Updates</h4>
+                        </strong>
+                    </p>
+                    <p>New equipments are on the way.</p>
+                    <p>1 Month Boost Training Mode is now on.</p>
+                    <p>Weight loss and Gain as per client requirement plan can be custmized</p>
+                </div>
+                <div class="col">
+                    <p><strong><h4>Contact Details</h4></strong></p>
+                    <p>Communicational Address : Chitanish Park, Nagpur - 440021</p>
+                    <p>Phone Number : 0712-00000XX</p>
+                    <p>Mobile Number : +91 00000000XX</p>
+                </div>
+                <div class="col">
+                    <p><strong><h4>Stay Up Date</h4></strong></p>
+                    <div class="input-group">
+                        <label for="Email :" class="form-control"> <strong>Email :</strong> <input type="text" id="email-update" placeholder="Enter Email here"></label><br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Contact Section end -->
 
-    <!-- footer Section Start -->
-    <footer class="container">
-        <h1>Footer</h1>
+<!-- footer Section Start -->
+    <footer class="footer-bg-color text-color">
+        <p class="align"><strong>2022 website @Copyright reserved to 'Hrishikesh Barange'</strong></p>
     </footer>
-    <!-- footer Section end -->
+<!-- footer Section end -->
     
-        <!-- ============== Bootstrap js link Start ============== -->
+<!-- ============== Bootstrap js link Start ============== -->
         <script src="assets/vendor/js/bootstrap.js"></script>
-        <!-- ============== Bootstrap js link End ============== -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<!-- ============== Bootstrap js link End ============== -->
 </body>
 </html>
