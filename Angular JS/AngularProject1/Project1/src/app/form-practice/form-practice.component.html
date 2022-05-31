@@ -1,0 +1,10 @@
+<p>form-practice works!</p>
+<form #data="ngForm" (submit)="hrishi(data)">
+    <input type="text" [(ngModel)]="data.username">
+    <input type="text" [(ngModel)]="data.password">
+    <button type="submit">submit</button>
+    <button type="button" (click)="edititem()">Edit</button>
+    <button type="reset">Reset</button>
+</form>
+{{username}}
+{{password}}

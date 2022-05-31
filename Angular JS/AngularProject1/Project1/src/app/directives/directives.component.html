@@ -1,0 +1,17 @@
+<p>directives works!</p>
+<p *ngFor="let a of week">{{a}}</p>
+<p *ngIf="mark>60"; else #fld>You are passed</p>
+<ng-template>
+    <p #fld>You are failed</p>
+</ng-template>
+
+<div *ngSwitch="choice">
+    <div *ngSwitchCase="0"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngSwitchCase="1"></div>
+    <div *ngDefault>Please Give Input From 0-6</div>
+</div>

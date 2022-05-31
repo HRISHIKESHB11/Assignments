@@ -1,0 +1,50 @@
+.imgsize{
+    height: 600px;
+    width: 600px;
+}
+.carousel-img{
+    background-color: #063636; 
+    height: 500px;
+}
+
+span{
+    font-size: 40px;
+    color: red;
+}
+
+.d-block{
+    opacity: 0.3;
+}
+.font{
+    font-size: 18px;
+}
+.fonta:hover{
+    display: block;
+    color: rgb(252, 2, 2);
+}
+.carouselcaption{
+    margin-bottom: 100px;
+    font-size: 5.0rem;
+    padding: 250px;
+}
+.cardimg{
+    height: 300px;
+    width: 100%;
+}
+.introimg{
+    height: 250px;
+    width: 100%;
+    
+}
+.imgposition{
+    margin-bottom:400px;
+    font-size: 5.0rem;
+    padding: 250px;
+}
+.reg{}
+
+h3{
+height: 60px;
+text-align: center;
+padding: 15px;
+}
